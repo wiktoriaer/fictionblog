@@ -40,7 +40,9 @@ group :development, :test do
   gem 'byebug'
 end
 
-gem 'pg'
+gem 'sqlite3', group: :development # Added development group.
+gem 'pg', group: :production # Added postgres and made it production only.
+gem 'rails_12factor'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
