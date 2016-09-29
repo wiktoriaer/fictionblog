@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <title>Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+  <nav class="gora navbar navbar-inverse navbar-fixed-top navbar-center">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbat-center">
+      <li><a href="#about">| ABOUT |</a></li>
+      <li><a href="#myCarousel">| NEWS |</a></li>
+      <li><a href="#">| ART&CULTURE |</a></li>
+      <li><a href="#">| FASHION |</a></li>
+      <li><a href="#contact">| CONTACT |</a></li>
+      <li><a href="http://localhost:3000/wiktoria">| PORTFOLIO |</a></li>
+      <form class="navbar-form navbar-right" role="search">
+         <div class="form-group">
+           <input class="form-control" placeholder="| SEARCH |" type="text">
+         </div>
+       </form>
+      
+  </div>
+  </ul>
+
+
+
+  </nav>
+<% if notice%>
+    <p class="notice"><%= notice %></p>
+<% elsif alert %>
+    <p class="alert"><%= alert %></p>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+body {
+  font-family:'Abel', sans-serif;
+}
+
+ div.arrow1 {
+   position: fixed;;
+   top: 700px;
+   right: 100px;
+ }
+
+
+
+nav.gora {
+  position: absolute;
+  top: 2cm;
+}
+
+div.komentarz{
+  position: absolute;
+  top: 60cm;
+  right:10cm;
+}
+
+ div.contact1{
+   display: block;
+   position: absolute;
+   line-height:70px;
+   top: 70cm;
+   right: 13cm;
+   width: 500px;
+   border: 2px solid;
+   font-size: 20px;
+   text-align: center;
+   background-color: black;
+   border-color: white;
+ }
+
+
+div.contact{
+  display: block;
+  position: absolute;
+  line-height:70px;
+  top: 65cm;
+  width: 100%;
+  border: 2px solid;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  border-color: black;
+}
+
+div.ikonki {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10cm;
+
+}
+
+div.fictionsmall {
+  display: block;
+  position: absolute;
+  line-height:70px;
+  top: 67cm;
+  left: 10cm;
+  width: 250px;
+  border: 1px solid;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  border-color: black;
+}
+
+
+
+
+div.fiction {
+  display: block;
+  position: absolute;
+  line-height:70px;
+  top: 17cm;
+  right: 13cm;
+  width: 500px;
+  border: 2px solid;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-color: black;
+}
+
+div.about {
+  display: block;
+  position: absolute;;
+  line-height:70px;
+  top: 42cm;
+  right: 13cm;
+  width: 500px;
+  border: 2px solid;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-color: black;
+}
+
+
+
+div.new {
+  display: block;
+  position: absolute;;
+  line-height:70px;
+  top: 61cm;
+  right: 13cm;
+  width: 500px;
+  border: 2px solid;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-color: black;
+
+}
+
+div.tresc-about{
+  position: absolute;
+  top: 25cm;
+  right: 16cm;
+}
+
+p {
+  margin-right: 1cm;
+  position: absolute;
+  top: 35cm;
+  left: 1cm;
+  margin-left: 4cm;
+  margin-right: 4cm;
+
+}
+
+h1 {
+  color: #e0e0d1;
+  font-size: 100px;
+
+}
+
+
+
+
+
+div.FB
+
+{
+
+  position:absolute;
+  left:9cm;
+  top:7cm;
+  font-size: 100px;
+  color: gray;
+
+}
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+#myCarousel{
+  position: absolute;
+  top: 45cm;
+  left: 7cm;
+}
+
+input.form-control {
+    background-color: #000000;
+    color: black;
+    font-color: white;
+    border-color: black;
+    font-size: 15px;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 200px;
+}
